@@ -52,6 +52,11 @@ header {
   overflow: hidden;
 }
 
+.figcap {
+  padding: 0 0 1em 0;
+  margin: 0;
+}
+
 @media only screen and (min-width: 15em) {
 
 header h1 {
