@@ -67,6 +67,7 @@ header {
 .footer {
   background-color: grey;
   overflow: hidden;
+  width: 100%;
 }
 
 .navigat {
@@ -128,6 +129,23 @@ header {
 .three p {
   padding-left: 1em;
   padding-right: 1em;
+}
+
+.list h3 {
+  padding-left: 1em;
+}
+
+.list dd{
+  margin: 0;
+}
+
+.list dt{
+  padding-top: 1em;
+}
+
+.list ol{
+  padding-left: 1em;
+  margin: 0;
 }
 
 
