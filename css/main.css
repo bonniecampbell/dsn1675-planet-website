@@ -148,6 +148,22 @@ header {
   margin: 0;
 }
 
+.list-two dd{
+  margin: 0;
+}
+
+.list-two ol{
+  padding: 0;
+}
+
+.fake {
+  padding-left: 1em;
+}
+
+.fake-two {
+  padding-left: 1em;
+}
+
 
 @media only screen and (min-width: 15em) {
 
