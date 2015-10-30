@@ -76,7 +76,13 @@ header {
 .navigat a{
   text-decoration: none;
   display: block;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  }
+
+.navigat a:hover {
+  background-color: blue;
+  color: white;
   }
 
 .navigat-two {
