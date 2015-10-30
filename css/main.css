@@ -71,8 +71,11 @@ header {
 }
 
 .navigat {
-  padding-left: 1em;
   overflow: hidden;
+}
+
+.navigat h1 {
+  padding-left: 1em;
 }
 
 .navigat a{
@@ -80,6 +83,7 @@ header {
   display: block;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
+  padding-left: 1em;
   }
 
 .navigat a:hover {
@@ -100,6 +104,13 @@ header {
 .navigat-two a{
   text-decoration: none;
   display: block;
+}
+
+.moon-title {
+  text-align: center;
+  background-color: lightgrey;
+  padding-top: 2em;
+  margin-bottom: 1em;
 }
 
 .subheader {
