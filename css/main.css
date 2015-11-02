@@ -100,17 +100,22 @@ header {
 .navigat-two {
   padding-left: 1em;
   background-color: grey;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 
 .navigat-two p{
-  padding-top: 1em;
+  padding-top: 0.5em;
   margin: 0;
 }
 
 .navigat-two a{
   text-decoration: none;
   display: inline-block;
+}
+
+.navigat-two ol {
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -212,10 +217,6 @@ header p {
   text-align: center;
 }
 
-.navigat-two a{
-  display: inline-block;
-
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -233,13 +234,12 @@ header p {
   padding-top: 1em;
 }
 
-.navigat-two a{
-padding-top: 2em;
-
-}
-
 .navigat h1 {
   margin-bottom: 0;
+}
+
+.navigat-two ol {
+  padding-top: 0.5em;
 }
 
 
