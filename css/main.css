@@ -145,19 +145,9 @@ header {
   padding-top: 0.5em;
 }
 
-.p-one h2 {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
 
 .three {
   background-color: #efefef;
-}
-
-.three p {
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
 .list {
@@ -165,7 +155,6 @@ header {
 }
 
 .list h3 {
-  padding-left: 0.5em;
   padding-top: 1em;
   margin: 0;
   line-height: normal;
@@ -180,8 +169,8 @@ header {
 }
 
 .list ol{
-  padding-left: 1em;
   margin: 0;
+  padding: 0;
 }
 
 .list-two dd{
