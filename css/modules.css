@@ -41,6 +41,7 @@ img {
 .img-flex {
   display: block;
   width: 100%;
+  padding-bottom: 1em;
 }
 
 svg:not(:root) {
@@ -63,6 +64,10 @@ svg {
 .list-group {
   padding-left: 0;
   list-style-type: none;
+}
+
+.list-group a {
+  text-decoration: none;
 }
 
 .list-group > dd {

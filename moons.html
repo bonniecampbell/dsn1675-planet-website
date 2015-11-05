@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/typography.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="css/typography.css" rel="stylesheet">
 
 </head>
   <body>
@@ -22,9 +23,11 @@
       </div>
 
       <div class="unit xs-1 s-1 m-2-3 l-2-3">
-        <a href="index.html">Planet</a>
-        <a href="moons.html">Moons</a>
-        <a href="exploration.html">Exploration</a>
+        <ol class="list-group list-group--inline">
+          <li><a class="island-half" href="index.html">Planet</a></li>
+          <li><a class="island-half"href="moons.html">Moons</a></li>
+          <li><a class="island-half" href="exploration.html">Exploration</a></li>
+        </ol>
       </div>
 
     </div>
@@ -36,8 +39,8 @@
 
     <div class="moon-title">
     <div class="grid">
-      <div class="unit xs-1 s-1 m-1 l-1 gutter">
-        <h1 class="peta">Moons</h1>
+      <div class="unit xs-1 s-1 m-1 l-1 gutter island">
+        <h1 class="peta push-0">Moons</h1>
       </div>
     </div>
     </div>
@@ -48,7 +51,7 @@
 
         <div class="grid">
           <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2">
-            <img class="img-v" src="images/venus-moon-1.jpg" alt="">
+            <img class="img-flex" src="images/venus-moon-1.jpg" alt="">
 
           </div>
 
@@ -58,13 +61,13 @@
           </div>
 
           <div class="list-two">
-          <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
+          <div class="unit xs-1 s-1 m-1 l-1">
             <ol>
-              <dt>Diameter (km):</dt>
+              <dt class="pad-top-half">Diameter (km):</dt>
                 <dd>22.2 km</dd>
-              <dt>Mass (kg):</dt>
+              <dt class="pad-top-half">Mass (kg):</dt>
                 <dd>2×10 ^ 15 km</dd>
-              <dt>Orbital period:</dt>
+              <dt class="pad-top-half">Orbital period:</dt>
                 <dd>30.35 h</dd>
             </ol>
           </div>
@@ -75,7 +78,7 @@
       <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
         <div class="grid">
           <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2">
-            <img class="img-v" src="images/venus-moon-2.jpg" alt="">
+            <img class="img-flex" src="images/venus-moon-2.jpg" alt="">
           </div>
 
           <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2">
@@ -86,11 +89,11 @@
           <div class="list-two">
           <div class="unit xs-1 s-1 m-1 l-1 gutter-1-2">
             <ol>
-              <dt>Diameter (km):</dt>
+              <dt class="pad-top-half">Diameter (km):</dt>
                 <dd>12.6 km</dd>
-              <dt>Mass (kg):</dt>
+              <dt class="pad-top-half">Mass (kg):</dt>
                 <dd>10.8×10 ^ 15 km</dd>
-              <dt>Orbital period:</dt>
+              <dt class="pad-top-half">Orbital period:</dt>
                 <dd>7.66 h</dd>
             </ol>
           </div>
@@ -105,7 +108,7 @@
 
     <div class="discovery"
     <div class="grid">
-    <div class="unit xs-1 s-1 m-1 l-1 gutter">
+    <div class="unit xs-1 s-1 m-1 l-1 island gutter">
 
 
     <div class="grid">
@@ -117,7 +120,7 @@
 
     <div class="grid">
       <div class="unit xs-1 s-1 m-1 l-1-4 gutter">
-        <img class="img-v" src="images/moon-fases.jpg" alt="">
+        <img class="img-flex" src="images/moon-fases.jpg" alt="">
       </div>
 
 
@@ -151,15 +154,15 @@
     <div class="grid">
 
       <figure>
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-2">
-        <div class="embed embed--4by3 gutter">
-          <img class="img-v" src="images/mariner-2.jpg" alt="">
+      <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter">
+        <div class="embed">
+          <img class="img-flex pad-top-half" src="images/mariner-2.jpg" alt="">
       </div>
       </div>
 
 
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-2">
-          <figcaption class="milli gutter"><h2>Mariner 2</h2>The subsequent Mariner 2 mission, after a 109-day transfer orbit on 14 December 1962, became the world’s first successful interplanetary mission, passing 34 833 km above the surface of Venus. Its microwave and infrared radiometers revealed that although the Venusian cloud tops were cool, the surface was extremely hot—at least 425 °C—confirming previous Earth-based measurements and finally ending any hopes that the planet might harbour ground-based life.</figcaption>
+      <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter">
+          <figcaption class="milli"><h2 class="push-0">Mariner 2</h2>The subsequent Mariner 2 mission, after a 109-day transfer orbit on 14 December 1962, became the world’s first successful interplanetary mission, passing 34 833 km above the surface of Venus. Its microwave and infrared radiometers revealed that although the Venusian cloud tops were cool, the surface was extremely hot—at least 425 °C—confirming previous Earth-based measurements and finally ending any hopes that the planet might harbour ground-based life.</figcaption>
       </div>
       </figure>
 
@@ -171,15 +174,15 @@
       <div class="grid">
 
       <figure>
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-2">
-        <div class="embed embed--4by3 gutter">
-            <img class="img-v" src="images/pioneer.jpg" alt="">
+      <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter">
+        <div class="embed">
+            <img class="img-flex pad-top-half" src="images/pioneer.jpg" alt="">
         </div>
       </div>
 
 
-       <div class="unit xs-1 s-1-2 m-1-2 l-1-2">
-        <figcaption class="milli gutter"><h2>Pioneer Venus Orbiter</h2>The Pioneer Venus Orbiter was inserted into an elliptical orbit around Venus on 4 December 1978, and remained there for over 13 years, studying the atmosphere and mapping the surface with radar.</figcaption>
+       <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter">
+        <figcaption class="milli"><h2 class="push-0">Pioneer Venus Orbiter</h2>The Pioneer Venus Orbiter was inserted into an elliptical orbit around Venus on 4 December 1978, and remained there for over 13 years, studying the atmosphere and mapping the surface with radar.</figcaption>
        </div>
     </figure>
     </div>
@@ -196,15 +199,15 @@
     <div class="grid">
 
       <figure>
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-2">
-        <div class="embed embed--4by3 gutter">
-          <img class="img-v" src="images/vise.jpg" alt="">
+      <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter">
+        <div class="embed">
+          <img class="img-flex pad-top-half" src="images/vise.jpg" alt="">
       </div>
       </div>
 
 
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-2">
-          <figcaption class="milli gutter"><h2>Venus In-Situ Explorer</h2>In 2003, NASA proposed the Venus In-Situ Explorer (VISE), originally proposed for a 2013 launch, currently a candidate to launch by 2022 as part of NASA's New Frontiers program. If selected, it would land and perform experiments on the surface of Venus, including taking a core sample and measuring its composition.</figcaption>
+      <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter">
+          <figcaption class="milli"><h2 class="push-0">Venus In-Situ Explorer</h2>In 2003, NASA proposed the Venus In-Situ Explorer (VISE), originally proposed for a 2013 launch, currently a candidate to launch by 2022 as part of NASA's New Frontiers program. If selected, it would land and perform experiments on the surface of Venus, including taking a core sample and measuring its composition.</figcaption>
       </div>
       </figure>
 
@@ -216,15 +219,15 @@
       <div class="grid">
 
       <figure>
-      <div class="unit xs-1 s-1-2 m-1-2 l-1-2">
-        <div class="embed embed--4by3 gutter">
-            <img class="img-v" src="images/veritas.jpg" alt="">
+      <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter">
+        <div class="embed">
+            <img class="img-flex pad-top-half" src="images/veritas.jpg" alt="">
         </div>
       </div>
 
 
-       <div class="unit xs-1 s-1-2 m-1-2 l-1-2">
-        <figcaption class="milli gutter"><h2>Veritas Orbiter</h2>Veritas orbiter, depicted here would create a radar map at higher resolution than Magellan, and also observe the surface at the wavelengths that can see through the clouds.</figcaption>
+       <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter">
+        <figcaption class="milli"><h2 class="push-0">Veritas Orbiter</h2>Veritas orbiter, depicted here would create a radar map at higher resolution than Magellan, and also observe the surface at the wavelengths that can see through the clouds.</figcaption>
        </div>
     </figure>
     </div>
@@ -242,15 +245,15 @@
     <div class="navigat-two">
       <div class="grid">
 
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 milli">
-          <p>© Venus Planetary Consortium<a href="top">・Top</a></p>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 milli island-1-2">
+          <li class="list-group">© Venus Planetary Consortium<a>・Top</a></li>
         </div>
 
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 milli">
-          <ol>
-          <a href="index.html">Planet</a>
-          <a href="moons.html">Moons</a>
-          <a href="exploration.html">Exploration</a>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 milli gutter">
+          <ol class="list-group list-group--inline">
+            <li><a href="index.html">Planet</a></li>
+            <li><a href="moons.html">Moons</a></li>
+            <li><a href="exploration.html">Exploration</a></li>
           </ol>
         </div>
 

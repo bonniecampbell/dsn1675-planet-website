@@ -22,47 +22,22 @@ body {
   margin: 0;
 }
 
-.img-flex {
-  width: 100%;
-  display: block;
-  padding: 0;
-}
-
-.img-v {
-  width: 100%;
-  display: block;
-  padding-bottom: 1em;
-}
-
 .gutter {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
 
-.top {
-  color: blue;
-  padding-top: 1em;
-}
-
-
 header {
   background-color: #cccccc;
-  padding-bottom: 0.5em;
 }
 
 .explor {
   background-color: #e2e2e2;
-  text-align: center;
 }
 
 .grid {
   overflow: hidden;
-}
-
-.figcap {
-  padding: 1em 0 1em 0;
-  margin: 0;
 }
 
 .footer {
@@ -76,24 +51,11 @@ header {
   overflow: hidden;
 }
 
-.discovery h1 {
-  padding-top: 1em;
-}
-
 .navigat {
   overflow: hidden;
 }
 
-.navigat h1 {
-  text-align: center;
-}
-
 .navigat a{
-  text-decoration: none;
-  display: block;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  padding-left: 1em;
   color: #026ec8;
   }
 
@@ -104,42 +66,20 @@ header {
 
 .navigat-two {
   background-color: #cccccc;
-  padding-bottom: 0.5em;
-}
-
-.navigat-two p{
-  padding-top: 0.5em;
-  margin: 0;
 }
 
 .navigat-two a{
-  text-decoration: none;
-  display: inline-block;
   color: #026ec8
-}
-
-.navigat-two ol {
-  margin: 0;
-  padding: 0;
 }
 
 
 .moon-title {
-  text-align: center;
   background-color: #e2e2e2;
-  padding-top: 1em;
-  margin-bottom: 1em;
 }
 
-.middle dt {
-  padding-top: 1em;
-}
 
 .subheader {
   background-color: #e2e2e2;
-  text-align: center;
-  margin-bottom: 1em;
-  padding-top: 0.5em;
 }
 
 
@@ -151,44 +91,10 @@ header {
   background-color: #e2e2e2;
 }
 
-.list h3 {
-  padding-top: 1em;
-  margin: 0;
-  line-height: normal;
-}
-
-.list dd{
-  margin: 0;
-}
-
-.list dt{
-  padding-top: 1em;
-}
-
-.list ol{
-  margin: 0;
-  padding: 0;
-}
-
-.list-two dd{
-  margin: 0;
-}
-
-.list-two ol{
-  padding: 0;
-}
-
 .probes {
   background-color: #e2e2e2;
 }
 
-.probes h1 {
-  padding-top: 1em;
-}
-
-.probes h2 {
-  margin: 0;
-}
 
 @media only screen and (min-width: 15em) {
 
