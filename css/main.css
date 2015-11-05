@@ -112,9 +112,8 @@ header ol {
 
 @media only screen and (min-width: 38em) {
 
-  header ol {
-    text-align: left;
-  }
-
+header ol {
+  text-align: left;
+}
 
 }
