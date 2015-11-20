@@ -96,7 +96,7 @@ header {
 }
 
 
-@media only screen and (min-width: 15em) {
+@media only screen and (min-width: 25em) {
 
 header h1 {
   text-align: center;
@@ -106,13 +106,23 @@ header p {
   text-align: center;
 }
 
-header ol {
+nav {
   text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
 }
 
 @media only screen and (min-width: 38em) {
 
 header ol {
+  text-align: left;
+}
+
+nav {
   text-align: left;
 }
 
